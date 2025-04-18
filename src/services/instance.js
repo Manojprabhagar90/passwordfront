@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // define the base url
-const baseURL = 'http://localhost:3002/api/v1';
-
+//const baseURL = 'http://localhost:3002/api/v1';
+const baseURL = 'https://password-reset-h1ej.onrender.com/api/v1';
 // create an axios instance
 const instance = axios.create({
     baseURL,

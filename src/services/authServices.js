@@ -9,6 +9,12 @@ const authServices = {
     },
     change_password_submit: async (data) => {
         return await instance.post(`/reset_password/reset_submit`,data);
+    },
+    register_submit: async (data) => {
+        return await instance.post(`/register/register_submit`,data);
+    },
+    login: async (data) => {
+        return await instance.post(`/login/login`,data);
     }
 }
 

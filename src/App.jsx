@@ -5,10 +5,20 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ForgotPassword from './pages/ForgotPassword';
 import ChangePassword from './pages/ChangePassword';
+import Signin from './pages/Signin';
+import Signup from './pages/Signup';
 
 const routes = [
   {
     path: "/",
+    element: <Signin />
+  },
+  {
+    path: "/signup",
+    element: <Signup />
+  },
+  {
+    path: "/forgotpassword",
     element: <ForgotPassword />
   },
   {
